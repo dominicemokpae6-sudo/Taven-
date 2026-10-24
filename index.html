@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10100f" />
+  <meta name="description" content="Discover Taven — good clothes, good prices. Shop baggy denim, everyday essentials and elevated streetwear in Nigeria." />
+  <title>TAVEN — Clothing Beyond Basic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement"><span>GOOD CLOTHES. GOOD PRICES.</span><span>DELIVERY AVAILABLE ACROSS NIGERIA ↗</span></div>
+  <header class="site-header" id="top">
+    <button class="icon-btn menu-toggle" aria-label="Open menu" id="menuToggle"><span></span><span></span></button>
+    <a class="wordmark" href="#top" aria-label="Taven home">TAVEN<span>®</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop">Shop all</a><a href="#collections">Collections</a><a href="#story">Our story</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-toggle" id="searchToggle" aria-label="Search products"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></button>
+      <button class="cart-trigger" id="cartOpen" aria-label="Open shopping bag">BAG <span id="cartCount">0</span></button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu"><a href="#shop">Shop all</a><a href="#collections">Collections</a><a href="#story">Our story</a><a href="#contact">Contact</a></div>
+  <div class="search-panel" id="searchPanel"><label for="searchInput">FIND YOUR NEXT FIT</label><div class="search-field"><input id="searchInput" type="search" placeholder="Search jeans, trousers, tees…" autocomplete="off"><button id="searchClose" aria-label="Close search">✕</button></div></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-image" role="img" aria-label="Taven streetwear collection"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> EVERYDAY STYLE, ELEVATED</p>
+        <h1>WEAR YOUR<br><em>own lane.</em></h1>
+        <p class="hero-copy">Streetwear staples. Relaxed fits. Prices that make sense.</p>
+        <a class="button button-light" href="#shop">SHOP THE DROP <span>↗</span></a>
+      </div>
+      <div class="hero-bottom"><span>01 / TAVEN STREETWEAR</span><span>SCROLL TO EXPLORE ↓</span></div>
+      <div class="hero-stamp"><span>GOOD<br>CLOTHES</span><b>✳</b><span>GOOD<br>PRICES</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Taven brand statement"><div class="ticker-track"><span>STYLE THAT SPEAKS</span><b>✳</b><span>GOOD CLOTHES. GOOD PRICES.</span><b>✳</b><span>MADE FOR YOUR EVERYDAY</span><b>✳</b><span>STYLE THAT SPEAKS</span><b>✳</b><span>GOOD CLOTHES. GOOD PRICES.</span><b>✳</b></div></div>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading reveal"><div><p class="eyebrow">THE TAVEN EDIT / 001</p><h2>Find your <em>fit.</em></h2></div><p class="section-note">Pieces you'll reach for<br>again and again.</p></div>
+      <div class="shop-toolbar"><div class="filter-list" id="filters"><button class="filter active" data-filter="all">All pieces <span>08</span></button><button class="filter" data-filter="denim">Denim</button><button class="filter" data-filter="trousers">Trousers</button><button class="filter" data-filter="tops">Tops</button></div><span class="result-count" id="resultCount">08 PRODUCTS</span></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card reveal" data-id="baggy-jeans" data-name="Baggy Jeans" data-price="10000" data-category="denim" data-image="baggy-jeans.jpg"><a class="product-photo" href="#shop" aria-label="View Baggy Jeans"><img src="images/baggy-jeans.jpg" alt="Relaxed-fit beige baggy jeans" loading="lazy"><span class="product-tag">BESTSELLER</span><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Baggy Jeans</h3><p>Relaxed fit / Washed denim</p></div><strong>₦10,000</strong></div><div class="swatches"><i class="swatch sand"></i><i class="swatch blue"></i><i class="swatch camo"></i></div></article>
+        <article class="product-card reveal" data-id="light-wash-jeans" data-name="Light Wash Denim" data-price="10000" data-category="denim" data-image="light-wash-jeans.jpg"><a class="product-photo" href="#shop" aria-label="View Light Wash Denim"><img src="images/light-wash-jeans.jpg" alt="Light wash baggy denim jeans" loading="lazy"><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Light Wash Denim</h3><p>Easy fit / Light blue</p></div><strong>₦10,000</strong></div><div class="swatches"><i class="swatch blue"></i><i class="swatch pale"></i></div></article>
+        <article class="product-card reveal" data-id="camo-jeans" data-name="Camo Baggy Jeans" data-price="10000" data-category="denim" data-image="camo-jeans.jpg"><a class="product-photo" href="#shop" aria-label="View Camo Baggy Jeans"><img src="images/camo-jeans.jpg" alt="Camouflage-print relaxed jeans" loading="lazy"><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Camo Baggy Jeans</h3><p>Utility-inspired / Relaxed</p></div><strong>₦10,000</strong></div><div class="swatches"><i class="swatch camo"></i></div></article>
+        <article class="product-card reveal" data-id="professional-trousers" data-name="Professional Trousers" data-price="10000" data-category="trousers" data-image="professional-trousers.jpg"><a class="product-photo" href="#shop" aria-label="View Professional Trousers"><img src="images/professional-trousers.jpg" alt="Wide-leg beige tailored trousers" loading="lazy"><span class="product-tag tag-new">EASY ESSENTIAL</span><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Professional Trousers</h3><p>Wide leg / Sand</p></div><strong>₦10,000</strong></div><div class="swatches"><i class="swatch sand"></i><i class="swatch black"></i></div></article>
+        <article class="product-card reveal" data-id="baggy-trousers" data-name="Pleated Baggy Trousers" data-price="10000" data-category="trousers" data-image="baggy-trousers.jpg"><a class="product-photo" href="#shop" aria-label="View Pleated Baggy Trousers"><img src="images/baggy-trousers.jpg" alt="Pleated wide-leg trousers" loading="lazy"><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Pleated Baggy Trousers</h3><p>Smart relaxed / Stone</p></div><strong>₦10,000</strong></div><div class="swatches"><i class="swatch sand"></i><i class="swatch grey"></i></div></article>
+        <article class="product-card reveal" data-id="long-sleeve" data-name="Graphic Long Sleeve" data-price="8000" data-category="tops" data-image="long-sleeve.jpg"><a class="product-photo" href="#shop" aria-label="View Graphic Long Sleeve"><img src="images/long-sleeve.jpg" alt="White graphic long-sleeve streetwear top" loading="lazy"><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Graphic Long Sleeve</h3><p>Statement graphic / White</p></div><strong>₦8,000</strong></div><div class="swatches"><i class="swatch pale"></i><i class="swatch black"></i></div></article>
+        <article class="product-card reveal" data-id="thrifted-jeans" data-name="Thrifted Baggy Jeans" data-price="12000" data-category="denim" data-image="thrifted-jeans.jpg"><a class="product-photo" href="#shop" aria-label="View Thrifted Baggy Jeans"><img src="images/thrifted-jeans.jpg" alt="Vintage blue thrifted baggy jeans" loading="lazy"><span class="product-tag">ONE-OF-A-KIND</span><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Thrifted Baggy Jeans</h3><p>Vintage wash / Limited</p></div><strong>₦12,000</strong></div><div class="swatches"><i class="swatch blue"></i></div></article>
+        <article class="product-card reveal" data-id="graphic-polo" data-name="Graphic Polo" data-price="12000" data-category="tops" data-image="stussy-polo.jpg"><a class="product-photo" href="#shop" aria-label="View Graphic Polo"><img src="images/stussy-polo.jpg" alt="Black and white graphic streetwear polo" loading="lazy"><span class="quick-view">QUICK ADD <b>+</b></span></a><div class="product-info"><div><h3>Graphic Polo</h3><p>Everyday streetwear / Black</p></div><strong>₦12,000</strong></div><div class="swatches"><i class="swatch black"></i><i class="swatch pale"></i></div></article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No pieces match that search. Try another name.</p>
+      <div class="shop-bottom"><span>GOOD TASTE DOESN'T NEED TO COST MORE.</span><a href="https://www.tiktok.com/@taven_fits" target="_blank" rel="noreferrer">SEE MORE ON TIKTOK ↗</a></div>
+    </section>
+
+    <section class="manifesto" id="collections"><div class="manifesto-image"></div><div class="manifesto-content reveal"><p class="eyebrow">THE EVERYDAY UNIFORM</p><h2>Less fuss.<br><em>More style.</em></h2><p>From laid-back denim to trousers that clean up nice, Taven is about finding the pieces that feel like you. Wear them your way.</p><a class="button button-dark" href="#shop">EXPLORE THE COLLECTION <span>↗</span></a><span class="manifesto-number">T / 026</span></div></section>
+
+    <section class="values section" id="story"><div class="section-heading reveal"><div><p class="eyebrow">WHY TAVEN</p><h2>Good things.<br><em>No extra fuss.</em></h2></div><p class="section-note">The right fit should feel<br>as good as it looks.</p></div><div class="value-grid"><article class="value-card reveal"><span>01</span><div class="value-icon">✳</div><h3>Style that moves</h3><p>Relaxed silhouettes and easy-to-wear pieces made to fit your everyday rotation.</p></article><article class="value-card reveal"><span>02</span><div class="value-icon">↗</div><h3>Prices that make sense</h3><p>Fresh looks without the unnecessary markup. Good clothes, good prices.</p></article><article class="value-card reveal"><span>03</span><div class="value-icon">⌁</div><h3>Order with ease</h3><p>Message us to confirm your size, availability and delivery details before you pay.</p></article></div></section>
+
+    <section class="social-proof"><div class="social-inner reveal"><p class="eyebrow">THE TAVEN COMMUNITY</p><h2>Your next fit is<br><em>one scroll away.</em></h2><p>Follow along for new drops, styling inspiration and customer favourites.</p><a href="https://www.tiktok.com/@taven_fits" class="social-link" target="_blank" rel="noreferrer">FOLLOW @TAVEN_FITS <span>↗</span></a></div><div class="social-stats"><div><strong>4.4K+</strong><span>FOLLOWERS</span></div><div><strong>64K+</strong><span>COMMUNITY LIKES</span></div><div><strong>∞</strong><span>WAYS TO STYLE</span></div></div></section>
+
+    <section class="contact section" id="contact"><div class="contact-copy reveal"><p class="eyebrow">NEED A HAND?</p><h2>Let's find<br><em>your fit.</em></h2><p>Need sizing help, want to check availability or ready to order? Send us a message and we'll help you out.</p></div><div class="contact-actions reveal"><a class="contact-option" href="https://wa.me/2347085014475?text=Hi%20Taven%2C%20I%27d%20like%20to%20make%20an%20enquiry." target="_blank" rel="noreferrer"><span><small>QUICK ENQUIRIES</small><strong>Chat on WhatsApp</strong></span><b>↗</b></a><a class="contact-option" href="https://t.me/taven_fits" target="_blank" rel="noreferrer"><span><small>ORDERS & UPDATES</small><strong>Telegram</strong></span><b>↗</b></a><a class="contact-option" href="https://www.tiktok.com/@taven_fits" target="_blank" rel="noreferrer"><span><small>NEW DROPS</small><strong>Follow on TikTok</strong></span><b>↗</b></a></div></section>
+  </main>
+
+  <footer class="footer"><div class="footer-top"><a class="wordmark footer-mark" href="#top">TAVEN<span>®</span></a><p>CLOTHING<br>BEYOND BASIC.</p><a class="back-top" href="#top">BACK TO TOP ↑</a></div><div class="footer-bottom"><span>© 2026 TAVEN. ALL RIGHTS RESERVED.</span><span>GOOD CLOTHES. GOOD PRICES.</span><span>MADE FOR YOUR EVERYDAY.</span></div></footer>
+
+  <button class="whatsapp-float" id="whatsappFloat" aria-label="Chat with Taven on WhatsApp" title="Chat on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.2A12.5 12.5 0 0 0 5.3 22.2L3.7 28l6-1.6A12.5 12.5 0 1 0 16 3.2Z"/><path d="M12.3 10.2c-.3-.7-.7-.7-1-.7h-.8c-.3 0-.8.1-1.2.6-.4.5-1.5 1.5-1.5 3.6s1.5 4.1 1.7 4.4c.2.3 3 4.8 7.4 6.5 3.7 1.5 4.4 1.2 5.2 1.1.8-.1 2.5-1 2.8-2 .3-1 .3-1.8.2-2-.1-.2-.4-.3-.8-.5l-2.8-1.4c-.4-.1-.7-.2-1 .2-.3.4-1.1 1.4-1.4 1.7-.3.3-.5.3-.9.1-.4-.2-1.7-.6-3.3-2-1.2-1.1-2-2.4-2.2-2.8-.2-.4 0-.6.2-.8l.7-.8c.2-.3.3-.4.4-.7.1-.3 0-.5-.1-.7l-1.2-2.8Z"/></svg></button>
+
+  <div class="cart-backdrop" id="cartBackdrop"></div><aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag" aria-hidden="true"><div class="cart-head"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button class="icon-btn" id="cartClose" aria-label="Close bag">✕</button></div><div class="cart-items" id="cartItems"><div class="cart-empty"><span>✳</span><h3>Your bag is taking a break.</h3><p>Find something you love and add it here.</p><button class="button button-dark" id="continueShopping">EXPLORE PIECES ↗</button></div></div><div class="cart-foot"><div class="cart-total"><span>SUBTOTAL</span><strong id="cartTotal">₦0</strong></div><p>Delivery fee is confirmed with the Taven team.</p><button class="button button-dark checkout-button" id="checkoutButton">CHECK OUT ON WHATSAPP <span>↗</span></button></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
